@@ -25,7 +25,7 @@ namespace GradeBook
 
         static void testRankedGradeBook()
         {
-            BaseGradeBook gradebook = new RankedGradeBook("rankedTest");
+            BaseGradeBook gradebook = new RankedGradeBook("rankedTest", false);
 
             Student katie = new Student("Katie", StudentType.Standard, EnrollmentType.Campus);
             Student vincent = new Student("Vincent", StudentType.Standard, EnrollmentType.Campus);
